@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <div class="feedback">
+        <form class="form" method="POST" action="#">
+            <p><b>ОБРАТНАЯ СВЯЗЬ</b></p><br>
+            <p>Ваше имя*</p>
+            <input minlength="2" maxlength="20" required class="input_name" type="text" autocomplete="on" pattern="[а-яА-ЯёЁa-zA-Z' ']+$" placeholder="Поле обязательно для заполнения">
+            <p>Телефон*</p>
+            <input minlength="10" maxlength="13" required class="input_number" type="text" autocomplete="on" pattern="[а-яА-ЯёЁa-zA-Z' ']+$" placeholder="Поле обязательно для заполнения">
+            <p>Email*</p>
+            <input required class="input_email" type="text" autocomplete="on" pattern="[а-яА-ЯёЁa-zA-Z' ']+$" placeholder="Поле обязательно для заполнения">
+            <button class="knopka" type="submit">Отправить</button>
+        </form>
+    </div>
+
+</html>
